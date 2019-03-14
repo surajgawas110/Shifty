@@ -8,9 +8,9 @@
 <title>Hello World Java EE</title>
 </head>
 <body>
-	<h1>Hello JSP and Servlet!</h1>
+	<h1> Jingle all the wayy!</h1>
 	<form action="helloServlet" method="post">
-		Enter your name: <input type="text" name="yourName" size="20">
+		Hows the Josh <input type="text" name="inputText" size="10">
 		<input type="submit" value="Call Servlet" />
 	</form>
 </body>
