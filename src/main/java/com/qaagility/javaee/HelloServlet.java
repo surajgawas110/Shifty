@@ -29,9 +29,9 @@ public class HelloServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
-		String yourName = request.getParameter("Shifty trial 1");
+		String inputText = request.getParameter("inputText");
 		PrintWriter writer = response.getWriter();
-		writer.println("<h1>Test " + yourName + " !!</h1>");
+		writer.println("<h1>Testing status " + inputText + "!</h1>");
 		writer.close();
 	}
 
