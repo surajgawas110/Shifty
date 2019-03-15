@@ -34,6 +34,7 @@ public class CalcTest {
       public void testCalc1() {
         assertEquals("Result - Fail", 9, 9);
       }
+      
 */
 
 
@@ -45,6 +46,7 @@ public class CalcTest {
 
 		assertEquals(add.add(),9);
 		assertEquals(add.add(5,5),10);
+		assertEquals(add.add(5,15),20);
 		assertEquals(mul.mul(),18);
 	}
 	
