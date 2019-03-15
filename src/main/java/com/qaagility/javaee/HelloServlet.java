@@ -1,4 +1,4 @@
-package com.qaagility.javaee;
+package main.java.com.qaagility.javaee;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -31,7 +31,7 @@ public class HelloServlet extends HttpServlet {
 			throws ServletException, IOException {
 		String inputText = request.getParameter("inputText");
 		PrintWriter writer = response.getWriter();
-		writer.println("<h1>Testing status " + inputText + "!</h1>");
+		writer.println("<h1>Testing status is \" " + inputText + "\"!</h1>");
 		writer.close();
 	}
 

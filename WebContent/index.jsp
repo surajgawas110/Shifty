@@ -5,13 +5,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Hello World Java EE</title>
+<title>NatGeo</title>
 </head>
 <body>
-	<h1> Jingle all the wayy!</h1>
+	<h1> IndeX </h1>
 	<form action="helloServlet" method="post">
-		Hows the Josh <input type="text" name="inputText" size="10">
-		<input type="submit" value="Call Servlet" />
+		Enter Testing Status :
+		<input type="text" name="inputText" size="10">
+		<input type="submit" value="Ok" />
 	</form>
 </body>
 </html>
