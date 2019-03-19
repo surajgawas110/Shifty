@@ -1,8 +1,8 @@
-package test.java.com.qaagility.controller;
+package com.qaagility.controller;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import main.java.com.qaagility.javaee.Calculator; 
+import com.qaagility.javaee.Calculator; 
 
 
 public class AppTest {
