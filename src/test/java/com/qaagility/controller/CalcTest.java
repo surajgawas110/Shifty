@@ -1,11 +1,11 @@
-package com.qaagility.controller;
+package test.java.com.qaagility.controller;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.qaagility.javaee.Calcmul;
-import com.qaagility.javaee.Calculator;
+import main.java.com.qaagility.javaee.Calcmul;
+import main.java.com.qaagility.javaee.Calculator;
 
 
 
