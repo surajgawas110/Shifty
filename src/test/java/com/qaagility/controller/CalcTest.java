@@ -12,7 +12,7 @@ import main.java.com.qaagility.javaee.Calculator;
  
 public class CalcTest {
 
-/*
+
       public void testSlow() {
         System.out.println("slow");
       }
@@ -35,7 +35,7 @@ public class CalcTest {
         assertEquals("Result - Fail", 9, 9);
       }
       
-*/
+
 
 
 	@Test
